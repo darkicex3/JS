@@ -18,13 +18,13 @@ function colonne() {
 $(document).ready(function () {
     $body.empty();
 
-    $('<table></table>');
+    var tab = $('<table></table>');
 
     for (var i = 0; i < 8; i++) {
         var img = mon_image();
-        colonne().html(img);
+        tab.append(colonne().append(img));
         for (var j = 0; j < 8; j++) {
-            ligne().html(img);
+            tab.append(ligne().append(img));
         }
     }
 })
