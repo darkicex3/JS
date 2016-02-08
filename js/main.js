@@ -5,6 +5,7 @@ function mon_image() {
         width: '10',
         height: 'auto'
     })
+    return retour;
 }
 
 function colonne() {
