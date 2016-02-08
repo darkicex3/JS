@@ -7,11 +7,11 @@ function mon_image() {
     })
 }
 
-function ligne() {
+function colonne() {
     return $('<td></td>');
 }
 
-function colonne() {
+function ligne() {
     return $('<tr></tr>');
 }
 
