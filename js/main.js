@@ -1,33 +1,5 @@
 $(function () {
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-    $('.col-md-4').appendTo('.container');
-
+    (function () {
+        $('.col-md-4').appendTo('.container');
+    })();
 });
