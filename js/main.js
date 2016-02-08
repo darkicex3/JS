@@ -27,4 +27,6 @@ $(document).ready(function () {
             tab.append(ligne().append(img));
         }
     }
+
+    $('body').append(tab);
 })
