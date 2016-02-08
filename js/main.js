@@ -34,6 +34,10 @@ $(document).ready(function () {
         }
     }
 
+    $('tr').css({
+        width: '50px',
+        height: '50px'
+    });
 
     $('body').append(tab);
 })
