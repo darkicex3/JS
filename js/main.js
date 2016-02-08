@@ -27,7 +27,7 @@ $(document).ready(function () {
         for (var j = 0; j < 8; j++) {
             if (i % 2 == 0) {
                 if (j % 2 == 0) {
-                    var lig = ligne().append(mon_image());
+                    var lig = ligne().css('background-color', '#000000');
                 } else {
                     var lig = ligne();
                 }
@@ -35,7 +35,7 @@ $(document).ready(function () {
                 if (j % 2 == 0) {
                     var lig = ligne();
                 } else {
-                    var lig = ligne().append(mon_image());
+                    var lig = ligne().css('background-color', '#000000');
                 }
             }
 
