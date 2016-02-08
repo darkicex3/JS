@@ -2,9 +2,9 @@
    Author's custom styles
    ========================================================================== */
 
-tr {
-    width: 10px !important;
-    height: 10px !important;
+table {
+    width: 100%;
+    height: 100%;
 }
 
 
