@@ -25,10 +25,15 @@ $(document).ready(function () {
         var col = colonne();
         tab.append(col);
         for (var j = 0; j < 8; j++) {
-            var lig = ligne().append(mon_image())
+            if (j % 2 == 0) {
+                var lig = ligne().append(mon_image());
+            } else {
+                var lig = ligne();
+            }
             col.append(lig);
         }
     }
+
 
     $('body').append(tab);
 })
