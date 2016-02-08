@@ -19,12 +19,14 @@ $(document).ready(function () {
     $('body').empty();
 
     var tab = $('<table></table>');
+    var img = mon_image();
 
     for (var i = 0; i < 8; i++) {
-        var img = mon_image();
-        tab.append(colonne().append(img));
+        var col = colonne();
+        tab.append(col);
         for (var j = 0; j < 8; j++) {
-            tab.append(ligne().append(img));
+            var lig = ligne().append(img)
+            col.append(lig);
         }
     }
 
