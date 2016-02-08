@@ -4,6 +4,14 @@ function mon_image() {
     return retour;
 }
 
+function mon_image1() {
+    var retour = $('<img />');
+    retour.attr('src', 'http://png.clipart.me/previews/218/knight-chess-piece-45344.png');
+    return retour;
+}
+
+
+
 function colonne() {
     return $('<td></td>');
 }
@@ -25,11 +33,13 @@ $(document).ready(function () {
                 if (j % 2 == 0) {
                     var lig = ligne().append(mon_image());
                 } else {
-                    var lig = ligne();
+                    var lig = ligne().append(mon_image1());
+                    ;
                 }
             } else {
                 if (j % 2 == 0) {
-                    var lig = ligne();
+                    var lig = ligne().append(mon_image1());
+                    ;
                 } else {
                     var lig = ligne().append(mon_image());
                 }
