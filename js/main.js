@@ -25,11 +25,20 @@ $(document).ready(function () {
         var col = colonne();
         tab.append(col);
         for (var j = 0; j < 8; j++) {
-            if (j % 2 == 0) {
-                var lig = ligne().append(mon_image());
+            if (i % 2 == 0) {
+                if (j % 2 == 0) {
+                    var lig = ligne().append(mon_image());
+                } else {
+                    var lig = ligne();
+                }
             } else {
-                var lig = ligne();
+                if (j % 2 == 0) {
+                    var lig = ligne();
+                } else {
+                    var lig = ligne().append(mon_image());
+                }
             }
+
             col.append(lig);
         }
     }
