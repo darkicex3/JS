@@ -16,7 +16,7 @@ function colonne() {
 }
 
 $(document).ready(function () {
-    $body.empty();
+    $('body').empty();
 
     var tab = $('<table></table>');
 
