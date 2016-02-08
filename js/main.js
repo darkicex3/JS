@@ -1,10 +1,6 @@
 function mon_image() {
     var retour = $('<img />');
     retour.attr('src', 'https://pixabay.com/static/uploads/photo/2012/04/10/22/55/chess-26779_640.png');
-    retour.css({
-        width: '10px',
-        height: '10px'
-    })
     return retour;
 }
 
