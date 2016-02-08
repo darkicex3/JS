@@ -3,7 +3,7 @@ function mon_image() {
     retour.attr('src', 'https://pixabay.com/static/uploads/photo/2012/04/10/22/55/chess-26779_640.png');
     retour.css({
         width: '10',
-        height: 'auto'
+        height: '10'
     })
     return retour;
 }
